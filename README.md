@@ -14,7 +14,7 @@ npm install moosend-api --save
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-var MoosendApi = require('moosend_api');
+var MoosendApi = require('moosend-api');
 
 var api = new MoosendApi.CampaignsApi()
 
@@ -35,8 +35,6 @@ var callback = function(error, data, response) {
 api.aBTestCampaignSummary(format, apikey, campaignID, callback);
 
 ```
-
-## Documentation for API Endpoints
 
 ## Documentation for API Endpoints
 
